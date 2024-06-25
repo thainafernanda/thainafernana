@@ -25,17 +25,6 @@
         <a href="#"><img src="img/Favoritos.svg"></a>
         <a href="#"><img src="img/Compras.svg"></a>
         <a href="#"><img src="img/Usuario.svg"></a>
-    </header>
-</body>
-<body>
-    <header class="cabeçalho">
-        <span class="cabeçalho__menu-hamburguer"></span>
-        <img src="img/Logo.svg" alt="Logo da AluraBooks">
-        <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"></a>
-        <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras"></a>
-        <a href="#"><img src="img/Usuario.svg" alt="Meu perfil"></a>
-    </header>
-</body>
 .cabeçalho_menu-hamburguer {
     width: 24px;
     height: 24px;
@@ -51,10 +40,6 @@
 }
 .cabeçalho {
     background-color: var(--branco);
-}
-<header class="cabeçalho">
-    <div class="container">
-        <span class="cabeçalho__menu-hamburguer"></span>
         <img src="img/Logo.svg" alt="Logo da AluraBooks">
     </div>
     <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"></a>
@@ -62,17 +47,7 @@
     <a href="#"><img src="img/Usuario.svg" alt="Meu perfil"></a>
 </header>
 <header class="cabeçalho">
-    <div class="container">
-        <span class="cabeçalho__menu-hamburguer"></span>
-        <img src="img/Logo.svg" alt="Logo da AluraBooks">
     </div>
-    <div class="container">
-        <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"></a>
-        <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras"></a>
-        <a href="#"><img src="img/Usuario.svg" alt="Meu perfil"></a>
-    </div>
-</header>
-.cabeçalho {
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
@@ -108,9 +83,6 @@
   <span class="cabeçalho__menu-hamburguer container__imagem"></span>
   <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem" />
 </div>
-<label for="menu">
-  <span class="cabeçalho__menu-hamburguer container__imagem"></span>
-</label>
 
 <label for="menu">
   <span class="cabeçalho__menu-hamburguer container__imagem"></span>
@@ -157,8 +129,6 @@
     align-items: center;
     position: relative;
   }
-
-
 }
 border-radius: 0 0 20px 20px;
 .lista-menu {
@@ -166,14 +136,6 @@ border-radius: 0 0 20px 20px;
   position: absolute;
   top: 100%;
   width: 60vw;
-  border-radius: 0 0 20px 20px
-}.lista-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  width: 60vw;
-  border-radius: 0 0 20px 20px;
-  background-color: var(--branco);
 }
 
 .lista-menu__titulo,
@@ -201,10 +163,6 @@ border-radius: 0 0 20px 20px;
 body {
   background-color: var(--cor-de-fundo);
   font-family: var(--fonte-principal);
-}
-body {
-  background-color: var(--cor-de-fundo);
-  font-family: var(--fonte-principal);
   font-size: 16px;
   font-weight: 400;
 }
@@ -228,12 +186,6 @@ body {
   font-family: __________ ;
   font-size: _____ ;
   font-weight: _____ ;
-}
-<section class="banner"></section>
-<section class="banner">
-  <h2>Já sabe por onde começar?</h2>
-  <p>Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
-</section>
 <section class="banner">
   <h2>Já sabe por onde começar?</h2>
   <p>Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
@@ -242,7 +194,6 @@ body {
 <section class="banner">
   <h2 class="banner__titulo">Já sabe por onde começar?</h2>
   <p class="banner__texto">
-    Encontre em nossa estante o que precisa para seu desenvolvimento!
   </p>
   <input
     type="search"
@@ -251,7 +202,6 @@ body {
   />
 </section>
 @import url("styles/header.css");
-@import url("styles/banner.css");
 .banner {
   background: var(--azul-degrade);
   color: var(--branco);
@@ -265,28 +215,11 @@ body {
 .banner__pesquisa {
   background-color: transparent;
   border: 1px solid var(--branco);
-}
-.banner__pesquisa {
-  background-color: transparent;
-  border: 1px solid var(--branco);
   color: var(--branco);
   border-radius: 24px;
   padding: 1em;
   width: 100%;
-}
-.banner__pesquisa::placeholder {
-}
-.banner__pesquisa::placeholder {
-  font-family: var(--fonte-principal);
-  font-size: 14px;
-  font-weight: 400;
-}
-.banner__pesquisa::placeholder {
-  font-family: var(--fonte-principal);
-  font-size: 14px;
-  font-weight: 400;
-  text-align: center;
-  color: var(--branco);
+
 }
 .banner__pesquisa::placeholder {
   font-family: var(--fonte-principal);
@@ -295,23 +228,11 @@ body {
   text-align: center;
   color: var(--branco);
   background: url("../img/Lupa.svg") no-repeat;
-}
-.banner__pesquisa::placeholder {
-  font-family: var(--fonte-principal);
-  font-size: 14px;
-  font-weight: 400;
-  text-align: center;
-  color: var(--branco);
-  background: url("../img/Lupa.svg") no-repeat;
-  background-position: 1em;
 }
 <section class="carrossel"></section>
 <section class="carrossel">
   <h2 class="carrossel__titulo">Novos lançamentos</h2>
 </section>
-@import url("styles/header.css");
-@import url("styles/banner.css");
-@import url("styles/carrossel.css");
 .carrossel__titulo {
   color: var(--laranja);
   background-color: var(--branco);
@@ -319,7 +240,107 @@ body {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
-  padding: 1em 0 0.5em 0;
+  padding: 1em 0 0.5em 0
+  <div class="card__descrição">
+  <div class="descrição">
+
+  </div>
+  <img src="img/Angular.svg" class="descrição__imagem" />
+</div>
+<div class="card__botões">
+  <ul class="botões">
+    <li class="botões__item"></li>
+    <li class="botões__item"></l
+<div class="card__botões">
+  <ul class="botões">
+    <li class="botões__item"></li>
+    <li class="botões__item"></li>
+  </ul>
+  <a href="#" class="botões__ancora">Saiba mais</a>
+</div>
+.card {
+  background: var(--branco);
 }
+.card {
+  background: var(--branco);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card {
+  background: var(--branco);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 1em;
+  padding: 1em;
+}
+.card__descrição {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+.card__botões {
+  display: flex;
+  justify-content: space-between;
+}
+.botões {
+  display: flex;
+}
+.descrição__titulo {
+  color: var(--laranja);
+  font-weight: 700;
+}
+:root {
+  --cor-de-fundo: #ebecee;
+  --branco: #ffffff;
+  --laranja: #eb9b00;
+  --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+  --fonte-principal: "Poppins";
+  --azul: #002f52;
+}
+.descrição__titulo-livro {
+  color: var(--azul-degrade);
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0.5em 0;
+}
+.botões__ancora {
+  background-color: var(--laranja);
+  padding: 1em 2.2em;
+  color: var(--branco);
+  font-weight: 700;
+  text-decoration: none;
+}
+.botões__item {
+  margin: 0 0.5em;
+}@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+.tópicos {
+  background: var(--azul-degrade);
+  text-align: center;
+  padding: 1em 0;
+}
+.tópicos__titulo {
+  color: var(--branco);
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+.tópicos__lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tópicos__item {
+  margin: 2em 0.5em;
+}
+.tópicos__link {
+  color: var(--branco);
+  padding: 1em;
+  background-color: var(--laranja);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+
 
      
